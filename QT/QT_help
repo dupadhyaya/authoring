@@ -1,0 +1,10 @@
+#quarto help
+
+
+#termina
+quarto.cmd --version #1.0.25
+quarto.cmd --help
+which quarto
+
+#R console
+Sys.which('quarto') #"C:\\PROGRA~1\\Quarto\\bin\\quarto.cmd" 

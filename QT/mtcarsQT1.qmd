@@ -1,0 +1,19 @@
+---
+title: "mtcars"
+author: "Dhiraj"
+format: pdf
+editor: visual
+---
+
+This is Authoring Document on MT Cars Dataset
+
+```{r}
+mtcars
+```
+
+```{r}
+#| echo: false
+dim(mtcars)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

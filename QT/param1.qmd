@@ -1,0 +1,26 @@
+---
+title: "QT Parameters"
+format: html
+editor: visual
+execute: 
+  echo : false
+  warning: false
+params:
+  P1 : 10
+  P2 : 15
+fig-align: center
+page-layout: full
+papersize: A4
+---
+
+## \## Using Parameters
+
+```{r}
+#| echo: false
+mtcars
+print(params$P1)
+knitr::kable(  mtcars[1:6, 1:10])
+
+```
+
+## 
